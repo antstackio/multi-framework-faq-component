@@ -2,12 +2,25 @@
   "name": "@faq-component/react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --emitDeclarationOnly --outDir dist && esbuild src/index.ts --bundle --outfile=dist/index.js --format=esm --external:react --external:react-dom --loader:.js=jsx"
+  },
+  "dependencies": {
+    "@faq-component/core": "workspace:*",
+    "esbuild": "~0.15.6",
+    "react": "~18.2.0",
+    "react-dom": "~18.2.0",
+    "@vanilla-extract/dynamic": "~2.0.2",
+    "@hover-design/react": "~0.1.7"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react-dom": "~18.0.6",
+    "@types/react": "~18.0.18",
+    "typescript": "~4.8.2"
+  }
 }

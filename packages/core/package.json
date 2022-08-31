@@ -2,12 +2,26 @@
   "name": "@faq-component/core",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --emitDeclarationOnly --outDir dist && node bundle.js",
+    "dev": "tsc --w"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "~0.15.6",
+    "typescript": "~4.8.2"
+  },
+  "dependencies": {
+    "@vanilla-extract/esbuild-plugin": "~2.1.0",
+    "@vanilla-extract/css": "~1.7.3",
+    "@vanilla-extract/recipes": "~0.2.5"
+  }
 }

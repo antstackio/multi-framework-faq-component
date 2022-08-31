@@ -1,0 +1,62 @@
+/* vanilla-extract-css-ns:src/components/Accordion/accordion.styles.css.ts.vanilla.css?source=LmFjY29yZGlvblwuc3R5bGVzX190MmF0bG0wIHsKICAtLWFjY29yZGlvblRyYW5zZm9ybV9fdDJhdGxtMTogcm90YXRlKDE4MGRlZyk7CiAgLS1hY2NvcmRpb25UcmFuc2l0aW9uX190MmF0bG0yOiB0cmFuc2Zvcm0gMC4ycyBlYXNlLWluLW91dDsKfQouYWNjb3JkaW9uXC5zdHlsZXNfX3QyYXRsbTYgewogIGN1cnNvcjogcG9pbnRlcjsKICBwYWRkaW5nOiAxOHB4IDE2cHg7CiAgZGlzcGxheTogZmxleDsKfQouYWNjb3JkaW9uXC5zdHlsZXNfX3QyYXRsbTcgewogIHBhZGRpbmc6IDE2cHg7Cn0KLmFjY29yZGlvblwuc3R5bGVzX190MmF0bG04IHsKICBtYXJnaW4tcmlnaHQ6IDhweDsKICB0cmFuc2l0aW9uOiB2YXIoLS1hY2NvcmRpb25UcmFuc2l0aW9uX190MmF0bG0yKTsKfQouYWNjb3JkaW9uXC5zdHlsZXNfcG9zaXRpb25fcmlnaHRfX3QyYXRsbTkgewogIG1hcmdpbi1sZWZ0OiBhdXRvOwp9Ci5hY2NvcmRpb25cLnN0eWxlc19wb3NpdGlvbl9sZWZ0X190MmF0bG1hIHsKICBtYXJnaW4tbGVmdDogMDsKfQ== */
+.accordion\.styles__t2atlm0 {
+  --accordionTransform__t2atlm1: rotate(180deg);
+  --accordionTransition__t2atlm2: transform 0.2s ease-in-out;
+}
+.accordion\.styles__t2atlm6 {
+  cursor: pointer;
+  padding: 18px 16px;
+  display: flex;
+}
+.accordion\.styles__t2atlm7 {
+  padding: 16px;
+}
+.accordion\.styles__t2atlm8 {
+  margin-right: 8px;
+  transition: var(--accordionTransition__t2atlm2);
+}
+.accordion\.styles_position_right__t2atlm9 {
+  margin-left: auto;
+}
+.accordion\.styles_position_left__t2atlma {
+  margin-left: 0;
+}
+
+/* vanilla-extract-css-ns:src/components/Accordion/accordion.global.styles.css.ts.vanilla.css?source=#H4sIAAAAAAAAE72T30rDMBTG7/cUYSBsYEo75x8i7im8m2OcNpkLS3NKcjot4rubrpsOHbVi2UVykZzz/b7vhESQZeikRvsUeaqM8sslTYBMPmUz5ss8B1cJwV9UutHEpSLQxvNwulGOvQ0Yk9oXBirBLFp1P3gfRF0kd61Ge+K7kk7dcyyUXRxpzNhcAgEHIqfTktTDMFurrUM7XOwA5MD6FbpcsC24Eeef4o+Hm4N6Mv4rvQakkG2eHZZW8gwNOsHW3sBoktxcsuT2Yr/FUa0eqoO0cjxFIgyWkuKVeTRaNk1xKAzFd9d12y9uroKPFq9ipV0YbbbWRjY+G7IDqUsv2DSQ6xU3638sA22oPeKA7C/Wt4c4T8BWaK9RLdLoOO+4OfnyMm6z0EvuDhY6zaM/M2hNdSL9GT7UD/zJ5F2NfAD64bAadgUAAA== */
+.accordion\.styles__t2atlm4 > summary::-webkit-details-marker {
+  display: none;
+}
+.accordion\.styles__t2atlm4 > summary {
+  list-style: none;
+}
+.accordion\.styles__t2atlm4[open] > summary > [data-attribute=chevron] {
+  transform: var(--accordionTransform__t2atlm1);
+}
+.accordion\.styles__t2atlm4[open] > summary {
+  background-color: hsla(216, 17%, 17%, 0.1);
+  border-bottom: 1px solid hsla(0, 0%, 85%, 1);
+}
+.accordion\.styles__t2atlm3 > .accordion\.styles__t2atlm4:first-child {
+  border-radius: 4px 4px 0px 0px;
+}
+.accordion\.styles__t2atlm3 > .accordion\.styles__t2atlm4:last-child {
+  border-radius: 0px 0px 4px 4px;
+}
+.accordion\.styles__t2atlm3 > .accordion\.styles__t2atlm4:first-child > summary {
+  border-radius: 4px 4px 0px 0px;
+}
+.accordion\.styles__t2atlm3 > .accordion\.styles__t2atlm4:last-child > summary {
+  border-radius: 0px 0px 4px 4px;
+}
+.accordion\.styles__t2atlm3 > .accordion\.styles__t2atlm4:not(:first-child):not(:last-child) {
+  border-radius: 0px 0px 0px 0px;
+}
+.accordion\.styles__t2atlm3 > .accordion\.styles__t2atlm4:not(:first-child):not(:last-child) > summary {
+  border-radius: 0px 0px 0px 0px;
+}
+.accordion\.styles__t2atlm3 > .accordion\.styles__t2atlm4:not(:only-child) {
+  border-bottom: 1px solid hsla(0, 0%, 85%, 1);
+}
+.accordion\.styles__t2atlm3 > .accordion\.styles__t2atlm4:not(:only-child) > summary {
+  border-bottom: 1px solid hsla(0, 0%, 85%, 1);
+}

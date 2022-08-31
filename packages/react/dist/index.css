@@ -1,0 +1,60 @@
+/* ../core/dist/index.css */
+.accordion\.styles__t2atlm0 {
+  --accordionTransform__t2atlm1: rotate(180deg);
+  --accordionTransition__t2atlm2: transform 0.2s ease-in-out;
+}
+.accordion\.styles__t2atlm6 {
+  cursor: pointer;
+  padding: 18px 16px;
+  display: flex;
+}
+.accordion\.styles__t2atlm7 {
+  padding: 16px;
+}
+.accordion\.styles__t2atlm8 {
+  margin-right: 8px;
+  transition: var(--accordionTransition__t2atlm2);
+}
+.accordion\.styles_position_right__t2atlm9 {
+  margin-left: auto;
+}
+.accordion\.styles_position_left__t2atlma {
+  margin-left: 0;
+}
+.accordion\.styles__t2atlm4 > summary::-webkit-details-marker {
+  display: none;
+}
+.accordion\.styles__t2atlm4 > summary {
+  list-style: none;
+}
+.accordion\.styles__t2atlm4[open] > summary > [data-attribute=chevron] {
+  transform: var(--accordionTransform__t2atlm1);
+}
+.accordion\.styles__t2atlm4[open] > summary {
+  background-color: hsla(216, 17%, 17%, 0.1);
+  border-bottom: 1px solid hsla(0, 0%, 85%, 1);
+}
+.accordion\.styles__t2atlm3 > .accordion\.styles__t2atlm4:first-child {
+  border-radius: 4px 4px 0px 0px;
+}
+.accordion\.styles__t2atlm3 > .accordion\.styles__t2atlm4:last-child {
+  border-radius: 0px 0px 4px 4px;
+}
+.accordion\.styles__t2atlm3 > .accordion\.styles__t2atlm4:first-child > summary {
+  border-radius: 4px 4px 0px 0px;
+}
+.accordion\.styles__t2atlm3 > .accordion\.styles__t2atlm4:last-child > summary {
+  border-radius: 0px 0px 4px 4px;
+}
+.accordion\.styles__t2atlm3 > .accordion\.styles__t2atlm4:not(:first-child):not(:last-child) {
+  border-radius: 0px 0px 0px 0px;
+}
+.accordion\.styles__t2atlm3 > .accordion\.styles__t2atlm4:not(:first-child):not(:last-child) > summary {
+  border-radius: 0px 0px 0px 0px;
+}
+.accordion\.styles__t2atlm3 > .accordion\.styles__t2atlm4:not(:only-child) {
+  border-bottom: 1px solid hsla(0, 0%, 85%, 1);
+}
+.accordion\.styles__t2atlm3 > .accordion\.styles__t2atlm4:not(:only-child) > summary {
+  border-bottom: 1px solid hsla(0, 0%, 85%, 1);
+}

@@ -401,6 +401,10 @@
     {
       "packageName": "@faq-component/react",
       "projectFolder": "packages/react"
+    },
+    {
+      "packageName": "@faq-component/react-docs",
+      "projectFolder": "docs"
     }
     // {
     //   /**
