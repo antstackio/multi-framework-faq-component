@@ -15,11 +15,13 @@ This Repo acts as a POC for making monorepos using Rush, handling bundling with 
 Note: this is still
 Project Structure:
 
+```
 ├── common // Houses common files mainly for managing monorepo
 ├── docs // Houses the docs
 ├── packages
 │ ├── core // houses all base `css` files
 │ ├── react // houses react components and react-specific logic
 └── README.md
+```
 
 Tries to make the Accordion of [hover.style](https://hover.style)
